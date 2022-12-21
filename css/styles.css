@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.slick-prev {
+    left: 25px;
+    z-index: 2;
+    background-color: transparent;
+    border: 1px solid #076BFF;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.slick-next {
+    right: 25px;
+    background-color: transparent;
+    border: 1px solid #076BFF;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.slick-prev:before {
+    content: url("../images/Vector.png");
+}
+
+.slick-next:before {
+    content: url("../images/Vector2.png");
+}
+
+.m-auto h3 {
+    background: linear-gradient(360deg, #076BFF 0%, #007BFF 100%);
+    color: white;
+    border-radius: 10px;
+}
+
+.m-auto div {
+    border: none;
+}
+
+.ui-accordion-header.ui-state-active .ui-icon{
+    /*background-position: 0px 7px;*/
+    background-image: url("../images/Vector (1).png");
+    width: 20px;
+    transform: rotate(0);
+    background-position: center;
+    margin-top: 2px;
+}
+
+.ui-accordion-header .ui-icon {
+    background-image: url("../images/Vector (1).png");
+    /*background-position: 0px 7px;*/
+    width: 20px;
+    background-position: center;
+    transform: rotate(182deg);
+    margin-top: 2px;
+}
+
+.ui-icon-triangle-1-e {
+    background-position: -65px 0px;
+}
+
+.ui-icon-triangle-1-s, .ui-icon-triangle-1-e {
+    position: absolute;
+    right: 25px;
+}
+
+.karousel-1 {
+    background-image: url("../images/image1.png");
+    height: 640px;
+    background-position: center;
+    background-size: cover;
+}
+
+.karousel-2 {
+    background-image: url("../images/image2.2.png");
+    height: 640px;
+    background-position: center;
+    background-size: cover;
+}
+
+.karousel-3 {
+    background-image: url("../images/image3.png");
+    height: 640px;
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (max-width: 560px) {
+    .karousel-1 {
+        justify-content: center;
+
+    }
+    .karousel-2 {
+        justify-content: center;
+    }
+    .karousel-3 {
+        justify-content: center;
+    }
+    .h1class{
+        font-size: 20px;
+    }
+    .divclass{
+        font-size: 10px;
+    }
+    .btn{
+        min-width: 100px;
+    }
+}
